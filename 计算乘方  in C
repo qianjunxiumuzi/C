@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int i,n,m;
+  long int x=1;
+  printf("请输入两个数(n^m)n,m:\n");
+  scanf("%d%d",&n,&m);
+  
+  for(i=1;i<=m;i++){
+    x=x*n;
+  }
+  
+  printf("%d^%d = %d",n,m,x);
+  return 0;
+}
